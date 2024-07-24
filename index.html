@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshdev Yadav | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'accent': '#BB86FC',
+                        'accent-light': '#E0B0FF',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-black text-gray-300 font-sans leading-relaxed">
+    <nav class="bg-black border-b border-gray-800 fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-accent">HY</a>
+            <div class="flex space-x-6">
+                <a href="#about" class="hover:text-accent-light transition-colors">About</a>
+                <a href="#favorites" class="hover:text-accent-light transition-colors">Favorites</a>
+                <a href="#contact" class="hover:text-accent-light transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-24 pb-16 px-6 bg-gradient-to-b from-gray-900 to-black">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 flex justify-center mb-8 md:mb-0">
+                <img src="https://i.ibb.co/r0SYn1b/Whats-App-Image-2024-07-24-at-19-08-46.jpg" alt="Harshdev Yadav" class="rounded-full w-64 h-64 object-cover border-4 border-accent shadow-lg">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-5xl font-bold mb-4 text-white">Harshdev Yadav</h1>
+                <p class="text-xl text-accent mb-6">Catalog Management Specialist</p>
+                <a href="#contact" class="bg-accent text-black px-8 py-3 rounded-full hover:bg-accent-light transition-colors inline-block font-semibold">Get in touch</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-16">
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-semibold text-accent mb-8">About Me</h2>
+            <div class="bg-gray-900 rounded-lg p-8 shadow-xl">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Catalog management expert
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Sports enthusiast: Badminton, Table Tennis, and more
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Based in Gurgaon, India
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Known for being a lovely person
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="favorites" class="mb-16">
+            <h2 class="text-3xl font-semibold text-accent mb-8">Personal Favorites</h2>
+            <div class="bg-gray-900 rounded-lg p-8 shadow-xl">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Fashion: Black T-shirts
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Color: Black
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-accent mr-3">•</span>
+                        Music: Doja Cat
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="text-center">
+            <h2 class="text-3xl font-semibold text-accent mb-8">Get in Touch</h2>
+            <p class="mb-6 text-lg">Interested in working together? Let's connect!</p>
+            <a href="mailto:harshdev@example.com" class="bg-accent text-black px-8 py-3 rounded-full hover:bg-accent-light transition-colors inline-block font-semibold">Email Me</a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-center py-6 mt-16">
+        <p>&copy; 2024 Harshdev Yadav. All rights reserved.</p>
+    </footer>
+</body>
+</html>
